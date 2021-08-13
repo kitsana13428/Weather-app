@@ -16,7 +16,7 @@ function App() {
   }
 
   return ( //UI Weather
-    <div className="App">
+    <div className="App ">
       <main> 
         <div className="search-container"> 
           <input 
@@ -33,10 +33,10 @@ function App() {
             <div className="date">Aug 13 2021</div>
           </div>
           <div className="weather-container">
-            <div classNmae="temperature">
+            <div className="temperature">
               30°C
             </div>
-            <div className="weather">Rains</div>
+            <div className="weather">Clouds</div>
           </div>
         </div>
       </main>
